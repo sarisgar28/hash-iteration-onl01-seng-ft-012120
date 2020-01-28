@@ -25,9 +25,10 @@ describe "#select_winner" do
 end
 
 birthday_kids = {
-  "Timmy" => 9,
-  "Sarah" => 6,
-  "Amanda" => 27
+  "Timmy" => |9|,
+  "Sarah" => |6|,
+  "Amanda" => |27|
+  nil 
 }
 "Happe birthday # {kids_name}! you are now # {age} years old!"
 def 
